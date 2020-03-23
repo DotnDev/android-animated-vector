@@ -62,7 +62,7 @@ You will find in this repo:
     valueFrom and valueTo determine where to start the action and where to end it. Play with the values to find out which    direction you want!
     
     interpolator: adds some effect to your action. Here I'm adding a little bounce at the end.
-    check out the other variations : [INSERT LINK]
+    check out the other variations : https://thoughtbot.com/blog/android-interpolators-a-visual-guide
     
     Now, you have two choices:
     - animate the entire vector
