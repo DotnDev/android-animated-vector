@@ -19,7 +19,7 @@ This repo is for you if:
 
 You will find in this repo:
 - translate animation
-- scale animation (coming soon!)
+- scale animation
 
 /* TRANSLATE ANIMATION TUTORIAL */
 
