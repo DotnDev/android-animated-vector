@@ -4,6 +4,10 @@
 
     <target
         android:animation="@animator/translate"
-        android:name="eyeGroup" />
+        android:name="rightEyeGroup" />
+
+    <target
+        android:animation="@animator/scale"
+        android:name="leftEyeGroup" />
 
 </animated-vector>
