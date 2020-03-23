@@ -7,19 +7,19 @@ Animations (translate, rotate, scale, pathData...) on vector in XML. Animations 
 
 <b>Animated Vector using animator/ObjectAnimator and animated-vector in XML</b>
 
-I really struggled to find the right documentation/guidelines to animate separate paths or group paths through XML.
-I had to work on a vector which had a lot of different elements and I wanted to animate each of them and I spent hours digging the internet to make it all work!
-It is so easy once you have the right information.
+I really struggled to find the right documentation/guidelines to animate separate paths or group paths from a single vector in XML.
+I had to work on a vector which had like 10 different elements to animate - each of them differently - I really didn't want to write lines and lines of java code for it, it didn't seem efficient. I spent hours digging the net for the right way.
+It is so easy once you have the right information!
 
 
 This repo is for you if:
 - You're trying to animate a vector using XML and ObjectAnimator
-- You're trying to animate several paths on one vector
+- You're trying to animate several paths in one vector
 - You're trying to use/customise simple translate or scale animations but everything you find online does not work!
 
 You will find in this repo:
 - translate animation
-- scale animation
+- scale animation (coming soon!)
 
 /* TRANSLATE ANIMATION TUTORIAL */
 
@@ -56,8 +56,8 @@ You will find in this repo:
     This objectAnimator represents one animation. If you want several animations together, easy, just surround the different <objectAnimators/> with <set></set>
     android:propertyName defines the action to be performed. Note here it is "translateY", and not "translationY". If you get this line wrong, nothing will happen.
    
-    translateY : up or down
-    translteX : left or right
+    - translateY : up or down
+    - translateX : left or right
     
     valueFrom and valueTo determine where to start the action and where to end it. Play with the values to find out which    direction you want!
     
@@ -69,7 +69,7 @@ You will find in this repo:
     - animate a specific element of your vector
     
     I want to animate my little robot's right eye, and because I use a translate animation, I need to store that little eye into a group and give it a name.
-    If you try to apply your translate.xml to the path insteead of the group, you'll get the following error:
+    If you try to apply your translate.xml to the path instead of the group, you'll get the following error:
     
     java.lang.IllegalArgumentException: Property: translateY is not supported for FullPath
     
@@ -92,7 +92,7 @@ You will find in this repo:
 ```
     
   Done!
-  And..if you want to animate the entire vector, just group all the paths into one <group> tag!
+  And..if you want to animate the entire vector, just group all the paths into one "<group>" tag!
     
 5. Create a new file in drawable > New > Drawable resource file, use the same name as your vector, add _animated at the end of it
    Here's the template:
