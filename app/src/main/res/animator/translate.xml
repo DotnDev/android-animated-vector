@@ -5,7 +5,7 @@
         android:duration="1500"
         android:interpolator="@android:anim/bounce_interpolator"
         android:propertyName="translateY"
-        android:valueFrom="20"
+        android:valueFrom="-20"
         android:valueTo="0" />
 
 
