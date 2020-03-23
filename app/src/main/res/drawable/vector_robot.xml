@@ -66,6 +66,9 @@
       android:strokeColor="#00000000"
       android:fillAlpha="1"
       android:strokeLineCap="round"/>
+
+  <group android:name="eyeGroup">
+
   <path
       android:pathData="M168.003,81.576a7.5,7.143 0,1 0,15 0a7.5,7.143 0,1 0,-15 0z"
       android:strokeAlpha="1"
@@ -75,6 +78,9 @@
       android:strokeColor="#00000000"
       android:fillAlpha="1"
       android:strokeLineCap="round"/>
+
+  </group>
+
   <path
       android:pathData="m156.578,93.777c-1.421,14.713 -32.43,15.287 -34.286,0"
       android:strokeAlpha="1"

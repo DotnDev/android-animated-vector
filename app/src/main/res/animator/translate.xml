@@ -2,10 +2,10 @@
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 
     <objectAnimator
-        android:duration="500"
-        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="1500"
+        android:interpolator="@android:anim/bounce_interpolator"
         android:propertyName="translateY"
-        android:valueFrom="1000"
+        android:valueFrom="20"
         android:valueTo="0" />
 
 
