@@ -49,7 +49,8 @@ You will find in this repo:
         android:interpolator="@android:anim/bounce_interpolator"
         android:propertyName="translateY"
         android:valueFrom="20"
-        android:valueTo="0" />```
+        android:valueTo="0" />
+   ```
 
         
     This objectAnimator represents one animation. If you want several animations together, easy, just surround the different <objectAnimators/> with <set></set>
@@ -58,7 +59,7 @@ You will find in this repo:
     translateY : up or down
     translteX : left or right
     
-    valueFrom and valueTo determine where to start the action and where to end it. Play with the values to find out which direction you want!
+    valueFrom and valueTo determine where to start the action and where to end it. Play with the values to find out which    direction you want!
     
     interpolator: adds some effect to your action. Here I'm adding a little bounce at the end.
     check out the other variations : [INSERT LINK]
@@ -74,7 +75,8 @@ You will find in this repo:
     
     in my vector_robot.xml:
     
- ``` <group android:name="eyeGroup">
+ ``` 
+ <group android:name="eyeGroup">
 
   <path
       android:pathData="M168.003,81.576a7.5,7.143 0,1 0,15 0a7.5,7.143 0,1 0,-15 0z"
@@ -86,7 +88,8 @@ You will find in this repo:
       android:fillAlpha="1"
       android:strokeLineCap="round"/>
 
-  </group>```
+  </group>
+```
     
   Done!
   And..if you want to animate the entire vector, just group all the paths into one <group> tag!
@@ -103,18 +106,19 @@ You will find in this repo:
         android:animation="@animator/translate"
         android:name="eyeGroup" />
 
-</animated-vector>```
+   </animated-vector>
+```
 
 As you can see, I have added my target with the group I want to apply my translate to, and the translate itself.
 
 6. Now, add your vector_animated.xml as an ImageView into your activity_main.xml, and add the following lines in your MainActivity.java:
 
-        ```
+```
         ImageView robot_imgview = findViewById(R.id.main_robot_imgview);
 
         Animatable animatable = (Animatable) robot_imgview.getDrawable();
-        animatable.start();```
-        
-        
+        animatable.start();
+
+```    
 You're good to go!
 Launch your app, watch your vector animate.
