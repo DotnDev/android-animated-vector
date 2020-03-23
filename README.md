@@ -92,7 +92,7 @@ You will find in this repo:
 ```
     
   Done!
-  And..if you want to animate the entire vector, just group all the paths into one "<group>" tag!
+  And..if you want to animate the entire vector, just group all the paths into one "group" tag!
     
 5. Create a new file in drawable > New > Drawable resource file, use the same name as your vector, add _animated at the end of it
    Here's the template:
