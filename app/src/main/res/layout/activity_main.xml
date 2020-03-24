@@ -5,12 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:gravity="center"
+    android:layout_gravity="center"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/main_robot_imgview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:src="@drawable/vector_robot_animated"
         android:contentDescription="@string/main_img"
         />

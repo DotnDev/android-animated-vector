@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
 
 
 <objectAnimator
@@ -9,6 +10,7 @@
     android:valueTo="1"
     android:interpolator="@android:anim/bounce_interpolator"
     android:valueType="floatType"/>
+
 <objectAnimator
     android:duration="500"
     android:propertyName="scaleY"
