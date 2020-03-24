@@ -17,9 +17,12 @@ This repo is for you if:
 - You're trying to animate several paths in one vector
 - You're trying to use/customise simple translate or scale animations but everything you find online does not work!
 
-You will find in this repo:
-- translate animation
-- scale animation
+You will find the following animations in this repo:
+- translate 
+- scale 
+- rotate
+
+
 
 /* TRANSLATE ANIMATION TUTORIAL */
 
