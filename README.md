@@ -23,8 +23,6 @@ You will find the following animations in this repo:
 - rotate
 
 
-![](robot.gif)
-
 
 /* TRANSLATE ANIMATION TUTORIAL */
 
